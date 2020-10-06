@@ -1,11 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #666666;
+    background: #555555;
 }
 
 #content {
-    width: 600px;
-    margin: 10px auto;
+    width: 200px;
+    margin: 50px auto;
     padding: 5px 20px;
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -24,7 +24,7 @@ p {
 label {
     display: block;
     width: 20em;
-    text-align: right;
+    text-align: left;
     padding-right: 1em;
     float: left;
 }
