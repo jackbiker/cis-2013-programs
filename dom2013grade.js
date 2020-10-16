@@ -20,9 +20,11 @@ intGradeOption = parseInt($("grade_option").value);
 if (intGradeOption===1){
     
     if(floatTotalPts >= 80){
-        $("Final_grade").value = "Pass";
+        stringFinalGrade = "Pass";
+        //$("Final_grade").value = "Pass";
     } else {
-        $("Final_grade").value = "Fail";
+       stringFinalGrade = "Fail";
+       // $("Final_grade").value = "Fail";
     }
 } else{
     if(floatTotalPts >= 90){
@@ -36,9 +38,9 @@ if (intGradeOption===1){
         } else {
             stringFinalGrade = "F";
         }
-      $("final_grade").value = stringFinalGrade;
+      
 }
-
+$("final_grade").value = stringFinalGrade;
 
 
 
